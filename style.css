@@ -1,0 +1,47 @@
+p {
+    color:blue;
+    font-size: 20px;
+}
+
+.p2 {
+    color: rgb(255, 0, 0);
+    font-size: 10px;
+}
+
+h2:hover { /*el hover es para la transicion*/
+    margin: 25px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    border-radius: 20px 10px solid red;
+    transition: 2s all;
+    transition-property: transform; /*propiedad a la que se le aplica la transicion*/
+}
+
+h1{
+    text-align: center;
+    width: 280px;
+    min-width: 200px; /*minimo ancho*/
+    font-size: 25px;
+    margin: 0 auto; /*margin-left, margin-right*/
+    padding: 15px; /*margen al borde*/
+    color: blueviolet;
+    border: 1px solid red;
+}
+
+.link {
+    background: linear-gradient(90deg, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5));
+    color: brown;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.hola > p {
+    color: green;
+    font-size: 20px;
+    font-family: "Big Shoulders", sans-serif;
+}
+
+
