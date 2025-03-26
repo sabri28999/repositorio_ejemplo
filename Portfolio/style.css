@@ -1,11 +1,27 @@
 body{
-    color: rgb(46, 6, 54);
-    background: #d8d5e0;
+    color: rgb(31, 74, 87);
+    background: #c4dae4;
     font-family: 'Dosis', sans-serif;
-    margin: 150px 0;
+    margin: 20px 0;
     padding: 20px 10%;
     box-sizing: border-box;
     font-size: 18px;
+}
+nav{
+    display: flex;
+    justify-content: right;
+    padding: 10px 3%;
+    background: linear-gradient(90deg, rgba(129, 197, 182, 0.13), rgba(8, 145, 138, 0.164));
+    border-radius: 10px;
+}
+nav a{
+    margin: 0 15px;
+    text-decoration: none;
+    color:  rgb(37, 88, 103); 
+}
+nav a:hover{
+    color: #000001;
+    font-size: 18.5px;
 }
 img{
     width: 200px;
@@ -13,37 +29,30 @@ img{
     border-radius: 50%;
     margin-top: 15px;
 }
-header{
+.sobremi{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10%;
-    flex-direction: row;
-    margin-bottom: 20px;
+    padding: 30px 10%;
 }
 h1{
     font-size: 40px;
 }
-nav{
-    display: flex;
-    justify-content: right;
-    padding: 10px 5%;
-    margin: auto;
-    background: linear-gradient(90deg, rgba(211, 202, 225, 0.5), rgba(211, 162, 204, 0.5));
-}
-nav a{
-    margin: 0 10px;
-    text-decoration: none;
-    color: #630575; 
-}
-nav a:hover{
-    color: #000001;
-    font-weight:100;
-}
 p.front{
     font-size: 17px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: #815f87;
+    color:  rgb(98, 153, 170);
+}
+.frontend{
+    display: flex;
+    flex-direction:row;
+    gap: 5px;
+}
+.frontend > i {
+    color:rgb(126, 174, 189);
+    font-size: 30px;
+    margin: 5px;
+    padding: 9px;
 }
 p.descripcion{
     font-size: 18px;
@@ -51,10 +60,70 @@ p.descripcion{
     max-width: 700px;
 }
 section{
-    background: linear-gradient(150deg, rgba(214, 207, 221, 0.5), rgba(200, 125, 209, 0.5));
     align-items: center;
     padding: 20px 10%;
-    flex-direction: column;
     border-radius: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
+    background: linear-gradient(150deg, rgba(184, 204, 200, 0.13), rgba(6, 165, 157, 0.075));
+}
+h2{
+    color:rgb(98, 153, 170);
+    text-align: center;
+    font-size: 28px;
+}
+.habilidade {
+    display: flex; /* Alinea en fila */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Asegura alineación vertical */
+    gap: 50px; /* Espacio entre elementos */
+    padding: 2%;
+}
+
+.habilidad {
+    display: flex;
+    flex-direction: column; /* Ícono arriba, texto abajo */
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    color: #42565e;
+}
+.habilidad i:hover{
+    font-size: 45px;
+    color: #3e86a0;
+    transition-duration: 0.5s;
+}
+.habilidad p {
+    font-size: 18px;
+}
+.experienciass{
+    padding-left: 15%;
+}
+.experiencia {
+    font-size: 18px;
+    display: flex;
+    gap: 5px;
+}
+.experiencia > p {
+    font-weight: 700 ;
+}
+.experiencia > i {
+    padding: 19px;
+}
+.experiencias > p{
+    padding-left: 20px;
+    margin: 10px;
+}
+.fecha {
+    font-size: 13px;
+}
+.red{
+    background-color: #6899b6; /* Color de fondo de LinkedIn */
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 14px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.red:hover {
+    background-color: #4195c2; /* Color más oscuro al pasar el cursor */
 }

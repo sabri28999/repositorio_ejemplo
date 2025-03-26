@@ -4,20 +4,26 @@
 <head>
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1f11b0cc92.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <nav>
-        <a href="#habilidades">Habilidades</a>
-        <a href="#experiencia">Experiencia</a>
-        <a href="#proyectos">Proyectos</a>
-        <a href="#contacto">Contacto</a>
-    </nav>
-    <br>
     <header>
+        <nav>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    <br>
+    <section class="sobremi">
         <article>
         <h1>Hola! Soy Nombre Apellido</h1>
-        <p class="front">FRONT-END DEVELOPER</p>
+        <div class="frontend">
+            <i class="fa-solid fa-code"></i>
+            <p class="front">FRONT-END DEVELOPER</p>
+        </div>
         <p class="descripcion">
             Soy un desarrollador <strong>Frontend</strong> con experiencia en <strong>HTML</strong>, <strong>CSS</strong> y <strong>JavaScript</strong>.
             Me apasiona la tecnología y la programación, y me encanta aprender cosas nuevas. 
@@ -27,30 +33,66 @@
         <aside>
             <img class="perfil" src="https://img.freepik.com/vector-gratis/hacker-que-opera-ilustracion-icono-historieta-ordenador-portatil-concepto-icono-tecnologia-aislado-estilo-dibujos-animados-plana_138676-2387.jpg?t=st=1742509023~exp=1742512623~hmac=862d709954843fe0eab870d43cd4dbf7d0739d0a84c608d0d587b131812a9e26&w=826">
         </aside>
-    </header>
+    </section>
     <br>
     <section class="habilidades">
-        <h3 id="habilidades">Habilidades</h3>
+        <h2 id="habilidades">Habilidades</h2>
+        <div class="habilidade">
+            <div class="habilidad">
+                <i class="fa fa-html5"></i>
+                <p>HTML</p>
+            </div>
+            <div class="habilidad">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS</p>
+            </div>
+            <div class="habilidad">
+                <i class="fa-brands fa-js"></i>
+                <p>JavaScript</p>
+            </div>
+        </div>
+        <div class="habilidade">
+            <div class="habilidad">
+                <i class="fa-brands fa-react"></i>
+                <p>React</p>
+            </div>
+            <div class="habilidad">
+                <i class="fab fa-python"></i>
+                <p>Python</p>
+            </div>
+            <div class="habilidad">
+                <i class="fab fa-figma"></i>
+                <p>Figma</p>
+        </div>
+    </section>
+    <section class="experiencias">
+        <h2 id="experiencia">Experiencia Laboral</h2>
+        <div class="experiencia">
+            <i class="fa fa-briefcase"></i>
+            <p>Frontend developer</p>
+        </div>
+        <p class="fecha">2020 - 2022</p>
         <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Bootstrap</li>
+            <li>Freelancer</p>
+            <li>Desarrollo de Landing Pages para clientes particulares, junto con un equipo de Diseño UX/UI.</li>
+        </ul>
+        <div class="experiencia">
+            <i class="fa fa-briefcase"></i>
+            <p>Tutor y coordinador de cursos de programación</p>
+        </div>
+        <p class="fecha">2020 - 2022</p>
+        <ul>
+            <li>Code Wonders</p>
+            <li>Coordinación de cursos de programación para niños y adolescentes, enseñando HTML, CSS y JavaScript.</li>
         </ul>
     </section>
-    <section class="experiencia">
-        <h3 id="experiencia" >Experiencia</h3>
-        <p>Desarrollador frontend en Empresa, 2020 - presente</p>
-        <p>Desarrollador frontend en Empresa, 2018 - 2020</p>
-    </section>
     <section class="proyectos">
-        <h3 id="proyectos">Proyectos</h3>
+        <h2 id="proyectos">Proyectos</h2>
         <p>Proyecto 1</p>
         <p>Proyecto 2</p>
     </section>
     <section class="contacto">
-        <h3 id="contacto">Contacto</h3>
+        <h2 id="contacto">Contacto</h2>
         <form action="https://formspree.io/f/mdkedgbk" method="POST">
             <label for="nombre">Nombre:</label><br>
             <input type="text" id="nombre" name="nombre" required>
@@ -66,9 +108,9 @@
         </form>
     </section>
     <footer>
-        <a href="https://www.linkedin.com/in/codewonders/" target="_blank">LinkedIn</a>
-        <a href="https://github.com/adenekan41" target="_blank">GitHub</a>
-        <a href="https://x.com/code_wonders" target="_blank">X</a>
-        <a href="https://www.instagram.com/codewonders/" target="_blank">Instagram</a>
+        <a class="red" href="https://www.linkedin.com/in/codewonders/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a class="red" href="https://github.com/adenekan41" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a class="red" href="https://x.com/code_wonders" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+        <a class="red" href="https://www.instagram.com/codewonders/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
     </footer>
 </body>
